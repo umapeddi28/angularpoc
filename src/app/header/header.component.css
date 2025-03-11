@@ -1,0 +1,19 @@
+.header{
+height: 200;
+padding: 30px 40px ;
+display: flex;
+background-color: pink ;
+
+}
+.site-slogan{
+width: 420px;
+margin-left: 100px;
+text-align: center;
+padding-top: 100px;
+padding-left: 100px ;
+font-size: 300px;
+color: black;
+}
+h2{
+font-size: 45px;
+}

@@ -1,0 +1,28 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { containercomponent } from './Container/container.component';
+import { NavComponent } from './nav/nav.component';
+import { HeaderComponent } from './header/header.component';
+import { NotificationComponent } from './notification/notification.component';
+import { SearchComponent } from './search/search.component'; 
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    containercomponent,
+    NavComponent,
+    HeaderComponent,
+    NotificationComponent,
+    SearchComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
